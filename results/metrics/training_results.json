@@ -1,0 +1,98 @@
+{
+  "n_samples": 26523,
+  "n_features": 13,
+  "n_stocks": 126,
+  "date_range": "1998-01 to 2017-11",
+  "target_mean": 0.00697844152170165,
+  "target_std": 0.09423955969176251,
+  "feature_names": [
+    "x10_zerotrade",
+    "x11_retvol",
+    "x12_beta",
+    "x13_indprem",
+    "x1_mom1m",
+    "x2_mom6m",
+    "x3_mom12m",
+    "x4_chmom",
+    "x5_indmom",
+    "x6_maxret",
+    "x7_mvel1",
+    "x8_turn",
+    "x9_std_turn"
+  ],
+  "best_alpha": 0.01,
+  "best_l1_ratio": 0.1,
+  "train_mse": 0.008850719529769154,
+  "train_rmse": 0.09407826279098246,
+  "train_mae": 0.06340302629495084,
+  "train_r2": 0.0034201956469244177,
+  "n_nonzero_coef": 8,
+  "feature_importance": [
+    {
+      "feature": "x7_mvel1",
+      "coefficient": 0.002841518780953272,
+      "abs_coefficient": 0.002841518780953272
+    },
+    {
+      "feature": "x8_turn",
+      "coefficient": -0.0016388427646215216,
+      "abs_coefficient": 0.0016388427646215216
+    },
+    {
+      "feature": "x9_std_turn",
+      "coefficient": -0.0015518938730895253,
+      "abs_coefficient": 0.0015518938730895253
+    },
+    {
+      "feature": "x1_mom1m",
+      "coefficient": -0.001195918121187723,
+      "abs_coefficient": 0.001195918121187723
+    },
+    {
+      "feature": "x6_maxret",
+      "coefficient": 0.0011932064217877638,
+      "abs_coefficient": 0.0011932064217877638
+    },
+    {
+      "feature": "x11_retvol",
+      "coefficient": -0.0009255051981863494,
+      "abs_coefficient": 0.0009255051981863494
+    },
+    {
+      "feature": "x13_indprem",
+      "coefficient": 0.0003752734826854617,
+      "abs_coefficient": 0.0003752734826854617
+    },
+    {
+      "feature": "x2_mom6m",
+      "coefficient": 0.00032216269870683357,
+      "abs_coefficient": 0.00032216269870683357
+    },
+    {
+      "feature": "x10_zerotrade",
+      "coefficient": 0.0,
+      "abs_coefficient": 0.0
+    },
+    {
+      "feature": "x12_beta",
+      "coefficient": 0.0,
+      "abs_coefficient": 0.0
+    },
+    {
+      "feature": "x3_mom12m",
+      "coefficient": 0.0,
+      "abs_coefficient": 0.0
+    },
+    {
+      "feature": "x4_chmom",
+      "coefficient": 0.0,
+      "abs_coefficient": 0.0
+    },
+    {
+      "feature": "x5_indmom",
+      "coefficient": 0.0,
+      "abs_coefficient": 0.0
+    }
+  ],
+  "intercept": 0.00697844152170165
+}

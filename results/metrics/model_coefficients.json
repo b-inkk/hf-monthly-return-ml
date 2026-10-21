@@ -1,0 +1,40 @@
+{
+  "model_type": "Elastic Net",
+  "hyperparameters": {
+    "alpha": 0.01,
+    "l1_ratio": 0.1
+  },
+  "intercept": 0.00697844152170165,
+  "coefficients": {
+    "x10_zerotrade": 0.0,
+    "x11_retvol": -0.0009255051981863494,
+    "x12_beta": 0.0,
+    "x13_indprem": 0.0003752734826854617,
+    "x1_mom1m": -0.001195918121187723,
+    "x2_mom6m": 0.00032216269870683357,
+    "x3_mom12m": 0.0,
+    "x4_chmom": 0.0,
+    "x5_indmom": 0.0,
+    "x6_maxret": 0.0011932064217877638,
+    "x7_mvel1": 0.002841518780953272,
+    "x8_turn": -0.0016388427646215216,
+    "x9_std_turn": -0.0015518938730895253
+  },
+  "active_features": [
+    "x11_retvol",
+    "x13_indprem",
+    "x1_mom1m",
+    "x2_mom6m",
+    "x6_maxret",
+    "x7_mvel1",
+    "x8_turn",
+    "x9_std_turn"
+  ],
+  "zeroed_features": [
+    "x10_zerotrade",
+    "x12_beta",
+    "x3_mom12m",
+    "x4_chmom",
+    "x5_indmom"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "analysis_date": "2025-10-11 15:30:42",
+  "test_period": "2017-01 to 2023-11",
+  "total_predictions": 9491,
+  "unique_stocks": 123,
+  "selected_stocks_analyzed": [
+    "AAPL",
+    "JPM",
+    "JNJ",
+    "XOM",
+    "AMZN"
+  ],
+  "model_type": "Elastic Net (Corrected)",
+  "prediction_clipping": "Applied \u00b150% monthly return limits",
+  "overall_performance": {
+    "r2": -0.00387443468115678,
+    "correlation": -0.010718190010537995,
+    "mse": 0.011130342291001061,
+    "mae": 0.0669074466855079,
+    "rmse": 0.10550043739720258,
+    "directional_accuracy": 0.5455694868823096,
+    "n_samples": 9491
+  }
+}
